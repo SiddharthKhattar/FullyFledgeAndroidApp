@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".webD">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Tech stack of Web Development:"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/html" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/css" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/javascript" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/react" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/nodejs" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/rails" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rotationX="2"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Web development is the process of creating and maintaining websites and web applications. It involves a combination of programming, design, and content management skills to build functional and visually appealing web experiences. Web development is divided into three main areas: front-end development, back-end development, and full-stack development.
+Front-End Development:
+Front-end development focuses on the user interface and user experience. It involves using HTML, CSS, and JavaScript to create the visual elements and interactions that users see and interact with in a web browser. HTML (HyperText Markup Language) defines the structure and content of web pages. CSS (Cascading Style Sheets) is used to style and layout the HTML elements, controlling the look and feel of the web page. JavaScript adds interactivity and dynamic behavior to web pages, enabling features like animations, form validations, and asynchronous content updates.
+Modern front-end development often involves using libraries and frameworks such as React, Angular, and Vue.js. These tools help manage complex user interfaces and state management, making it easier to build scalable and maintainable web applications. Responsive design principles, using techniques like media queries and flexible grids, ensure that web pages look good and function well on different devices and screen sizes.
+Back-End Development:
+Back-end development involves creating the server-side logic and database interactions that power web applications. The back end handles tasks such as data storage, authentication, business logic, and server-side rendering. Common programming languages for back-end development include JavaScript (Node.js), Python (Django, Flask), Ruby (Ruby on Rails), PHP, Java (Spring), and C# (ASP.NET).
+Databases are a crucial part of back-end development, used to store and retrieve data for web applications. Relational databases like MySQL, PostgreSQL, and SQLite, as well as NoSQL databases like MongoDB and Firebase, are commonly used. ORM (Object-Relational Mapping) tools like Sequelize, SQLAlchemy, and ActiveRecord simplify database interactions by allowing developers to work with databases using object-oriented programming.
+Full-Stack Development:
+Full-stack development encompasses both front-end and back-end development. Full-stack developers are proficient in building and managing the entire web application stack, from the user interface to the server and database. They often use integrated development environments (IDEs) and version control systems like Git to manage their codebase and collaborate with other developers.
+Web Development Tools and Practices:
+Version control systems like Git and platforms like GitHub and GitLab are essential for managing code changes and collaborating with other developers. Package managers like npm (Node Package Manager) and Yarn help manage project dependencies and libraries. Task runners and build tools like Gulp, Grunt, and Webpack automate repetitive tasks and optimize the development workflow.
+Testing is a critical aspect of web development. Unit testing frameworks like Jest and Mocha, along with end-to-end testing tools like Cypress and Selenium, ensure that the application functions correctly and provides a good user experience. Continuous Integration and Continuous Deployment (CI/CD) pipelines, using tools like Jenkins, Travis CI, and CircleCI, automate the process of testing, building, and deploying web applications.
+Web Development Trends:
+Web development is constantly evolving, with new technologies and best practices emerging regularly. Progressive Web Apps (PWAs) provide a native app-like experience on the web, with features like offline access and push notifications. Single Page Applications (SPAs), built using frameworks like React and Angular, offer a seamless user experience by dynamically updating content without refreshing the page. WebAssembly enables high-performance web applications by allowing code written in languages like C and Rust to run in the browser.
+In conclusion, web development is a dynamic and multifaceted field that requires a blend of technical, design, and problem-solving skills. By leveraging modern tools, frameworks, and best practices, developers can create robust, responsive, and user-friendly web applications that meet the needs of users and businesses alike.">
+
+        </TextView>
+
+    </ScrollView>
+
+</LinearLayout>
